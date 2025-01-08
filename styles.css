@@ -1,4 +1,4 @@
-/* Global Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -12,7 +12,33 @@ body {
     margin: 0 auto;
 }
 
-/* Navbar Styles */
+.instagran{
+    width: 80px;
+    mix-blend-mode: multiply;
+    position: absolute;
+    margin: 10px 0 0 -400px;
+    cursor: pointer;
+}
+
+.facebook{
+    width:50px;
+    mix-blend-mode: multiply;
+    position: absolute;
+    margin: 26px 0 0 -300px;
+    cursor: pointer;
+}
+
+.whatsapp{
+    width: 85px;
+    mix-blend-mode: multiply;
+    position: absolute;
+    margin: 10px 0 0 -230px;
+    cursor: pointer;
+}
+
+.instagran .facebook .whatsapp:hover{
+    font-size: 150px;
+}
 
 .video1 {
     z-index: -1;
@@ -21,22 +47,27 @@ body {
     position: absolute;
     margin: 70px 0 0 20px;
 }
+
 .mostruario {
     font-size: 30px;
     color: black;
 }
+
 .mostruario:hover{
     font-size: 40px;
     opacity: 0.6;
 }
+
 .foto-casa {
     max-width: 300px;
     max-height: 230px;
 }
+
 .navbar {
-    background-color: #190a5e;
+    background: linear-gradient(to right, #381208, #020152);
     color: white;
     padding: 1rem 0;
+    width: 100%;
 }
 
 .navbar .logo {
@@ -49,6 +80,7 @@ body {
     padding: 0;
     display: flex;
     gap: 1rem;
+   
 }
 
 .navbar nav ul li a {
@@ -61,12 +93,10 @@ body {
     text-decoration: underline;
 }
 
-/* Hero Section */
 .hero {
-    background: url('./assets/real\ estate_20250107_093236_0000.png' ) no-repeat center center/cover;
+    
     color: rgb(245, 241, 241);
     text-align: center;
-    padding: 5rem 1rem;
 
 }
 
@@ -76,6 +106,7 @@ body {
     padding: 2rem;
     border-radius: 8px;
     margin-top: 50px;
+
 }
 
 .hero .btn {
@@ -102,13 +133,11 @@ body {
     margin-bottom: 2rem;
 }
 
-
 .cards {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
-    justify-content: center;
-  
+    justify-content: center;  
 }
 
 .card {
@@ -117,7 +146,6 @@ body {
     overflow: hidden;
     width: 300px;
     text-align: center;
-    
 }
 
 .card img {
@@ -166,7 +194,7 @@ body {
 }
 
 .contact form button {
-    background-color: #28a745;
+    background: linear-gradient(to right, #381208, #020152);
     color: white;
     padding: 0.5rem 1rem;
     border: none;
@@ -175,13 +203,14 @@ body {
 }
 
 .contact form button:hover {
-    background-color: #1e7e34;
+    background-color: #042b0d;
 }
 
 /* Footer */
 footer {
-    background-color: #190a5e;
+    background: linear-gradient(to right, #381208, #020152);
     color: white;
     text-align: center;
     padding: 1rem 0;
+    width: 100%;
 }
