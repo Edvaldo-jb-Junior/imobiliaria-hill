@@ -36,7 +36,7 @@ body {
     cursor: pointer;
 }
 
-.instagran .facebook .whatsapp:hover{
+.instagran:hover {
     font-size: 150px;
 }
 
