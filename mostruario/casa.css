@@ -1,0 +1,13 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+video {
+     display: flex;
+     
+     max-height: 86vh;
+     justify-content: center;
+}
