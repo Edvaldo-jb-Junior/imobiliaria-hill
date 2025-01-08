@@ -30,13 +30,13 @@ main, section{
 
 video {
     position: absolute;
-    width: 45vw;
-    margin: 35px 0 0 700px;
+    width: 20vw;
+    margin: 5px 0 0 800px;
     opacity: 0.6;
 }
 img{
     max-width: 600px;
-    max-height: 300px;
+    max-height: 400px;
     display: flex;
     flex-wrap: wrap;
 }
