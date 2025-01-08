@@ -36,8 +36,14 @@ body {
     cursor: pointer;
 }
 
-.instagran:hover {
-    font-size: 150px;
+.instagran:hover{
+    width: 150px;
+}
+.facebook:hover{
+    width: 110px;
+}
+.whatsapp:hover{
+    width: 150px;
 }
 
 .video1 {
