@@ -12,8 +12,11 @@ body {
     margin: 0 auto;
 }
 .rede-sociais{
-    width: 100px;
-    height: 0px;
+    width: 200px;
+    height: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around
     
 }
 
@@ -21,24 +24,27 @@ body {
     width: 80px;
     mix-blend-mode: multiply;
     position: absolute;
-    margin: 10px 0 0 -650px;
     cursor: pointer;
+    display: flex;
+    margin: 20px 00 10px;
 }
 
 .facebook{
     width:50px;
     mix-blend-mode: multiply;
     position: absolute;
-    margin: 26px 0 0 -550px;
     cursor: pointer;
+    display: flex;
+    margin: 35px 0 0 90px
 }
 
 .whatsapp{
     width: 85px;
     mix-blend-mode: multiply;
     position: absolute;
-    margin: 10px 0 0 -470px;
     cursor: pointer;
+    display: flex;
+    margin: 20px 0 0 150px
 }
 
 .instagran:hover{
@@ -51,13 +57,22 @@ body {
     width: 150px;
 }
 
-.video1 {
+.video-1 {
     z-index: -1;
     opacity: 0.4;
     max-width: 44%;
     position: absolute;
     margin: 70px 0 0 20px;
     border-radius: 10px;
+}
+
+.video-2{
+    display: none;
+    z-index: -1;
+    opacity: 0.4;
+    max-width: 44%;
+    position: absolute;    
+    border-radius: 10px
 }
 
 .mostruario {
@@ -226,4 +241,52 @@ footer {
     text-align: center;
     padding: 1rem 0;
     width: 100%;
+}
+
+@media (max-width: 1200px){
+    video{
+        max-width: 52vw;
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 950px){
+    .hero-content{
+        margin-top: 100px;
+    }
+    video{
+        max-width: 66vw;
+    }
+}
+
+@media (max-width: 860px){
+    video{
+        max-width: 70vw;
+    }
+}
+
+@media (max-width: 540px){
+    .cards {
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    
+    .video-1 {
+        max-width: 96vw;
+        margin: 110px 0 0 5px;
+    }
+    .video-2{
+        display: flex;
+        max-width: 96vw;
+        margin: 1180px 0 0 5px;
+    }
+    .navbar{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    .hero-content{
+        max-width: 70vw;
+    }
 }
