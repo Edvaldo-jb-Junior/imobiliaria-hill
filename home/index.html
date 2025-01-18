@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="navbar">
-        <div class="container">
+    <header id="navbar">
+        <div class="containes">
             <h1 class="logo">Imobiliária HILL</h1>
             <nav>
                 <ul class="nav-links">
@@ -22,26 +22,26 @@
     </header>
 
     <main>
-        <section id="home" class="hero">
+        <section id="home" class="hidden">
             <div class="redes-sociais">
                 <img src="../assets/instagran.jpg" class="instagran" href="#instagran">
                 <img src="../assets/facebook.jpg" class="facebook" href="#facebook">
                 <img src="../assets/whatsapp.jpg" class="whatsapp" href="#whatsapp">
             </div>
-            <div class="hero-content">
+            <div id="hero-content">
                 <h2>Bem-vindo à Imobiliária Hill</h2>
                 <p>Encontre o imóvel dos seus sonhos com facilidade e segurança!</p>
                 <a href="../mostruario/casa.html" class="btn">Explorar Imóveis</a>
             </div>
         </section>
 
-        <section id="properties" class="properties">
+        <section id="properties" class="hidden">
             <video src="../assets/Black Gradient Fade Video-centric Real Estate Instagram Reel_20250107_092952_0001.mp4" autoplay muted loop class="video-1"></video>
-            <video src="../assets/Black Gradient Fade Video-centric Real Estate Instagram Reel_20250107_092952_0001.mp4" autoplay muted loop class="video-2"></video>
            
-            <div class="container"> 
+            <div id="container" class="hidden"> 
                 <h2>Nossos Imóveis</h2>
-                <div class="cards">
+
+                <div id="cards">
                    
                     <div class="card">
                         <img src="../assets/casa.jpg" alt="Casa" class="foto-casa">
@@ -77,7 +77,7 @@
             </div>
         </section>
 
-        <section id="about" class="about">
+        <section id="about" class="hidden">
             <div class="container">
                 <h2>Sobre Nós</h2>
                 <p>Somos uma imobiliária ha mais de 10 anos dedicada a conectar pessoas aos seus sonhos, 
@@ -85,7 +85,7 @@
             </div>
         </section>
 
-        <section id="contact" class="contact">
+        <section id="contact" class="hidden">
             <div class="container">
                 <h2>Contato</h2>
                 <p>Envie-nos uma mensagem para saber mais sobre nossos imóveis.</p>
@@ -101,7 +101,9 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Imobiliária HILL. Todos os direitos reservados. Created by dev Edvaldo J.B. junior</p>
+            <p>&copy; 2025 Imobiliária HILL. Todos os direitos reservados.</p>
+            <p><a>Politica de Privacidade</a> | <a>Termos e Condições</a></p>
+            <p>Desenvolvido por <a href="www.">EJBJDEV</a></p>
         </div>
     </footer>
 
