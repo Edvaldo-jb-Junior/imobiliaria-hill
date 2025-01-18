@@ -1,7 +1,22 @@
-// JavaScript Functionality for Real Estate Frontend
+
+const myObserver = new IntersectionObserver((entries) => {
+    entries.forEach( (entry) => {
+        if(entry.isIntersecting){
+            entry.target.classList.add("show")
+        } else {
+            entry.target.classList.remove("show")
+        }
+    })
+});
+
+const elements = document.querySelectorAll(".hidden")
+
+elements.forEach((element) => myObserver.observe(element));
+
+
 
 document.addEventListener("DOMContentLoaded", () => {
-    // Smooth scroll for navigation links
+    
     const navLinks = document.querySelectorAll(".navbar nav ul li a");
 
     navLinks.forEach(link => {
@@ -16,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // Form submission logic
+
     const contactForm = document.querySelector(".contact form");
 
     if (contactForm) {
@@ -32,7 +47,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
             alert("Obrigado por entrar em contato! Sua mensagem foi enviada com sucesso.");
 
-            // Optionally reset the form
             contactForm.reset();
         });
     }
