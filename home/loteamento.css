@@ -22,6 +22,7 @@ header a {
     text-decoration: none;
     font-weight: bold;
     font-size: 1.3rem;
+    padding-right: 20px;
 }
 
 main, section{
@@ -30,8 +31,8 @@ main, section{
 
 video {
     position: absolute;
-    width: 45vw;
-    margin: 35px 0 0 700px;
+    width: 30vw;
+    margin: 35px 0 0 750px;
     opacity: 0.6;
 }
 img{
